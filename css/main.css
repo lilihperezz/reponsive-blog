@@ -1,0 +1,185 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #2D2735;
+	color: #FFFFFF;
+
+}
+
+header{
+	background: #1C1821;
+}
+
+.logotipo{
+	width: 40%;
+}
+.nav-header{
+	text-align: center;
+	padding: 2%;
+}
+
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: italic;
+	
+
+}
+.nav-header a{
+	padding-right: 4%;
+}
+.space{
+	padding-right: 2%;
+}
+a:hover{
+	color:#F7BA6A;
+}
+
+.enlace{
+	font-style: italic;
+	font-family: Open Sans;
+
+}
+
+
+.subtitulo{
+	font-family: Courgette;
+	color: #F7BA6A;
+	padding-top: 2%;
+	text-align: center;
+}
+.nav-imagenes{
+	padding-bottom: 2%;
+	text-align: center;
+	padding-top:3%;
+	font-style: italic;
+
+}
+
+.titulo{
+	color: #F7BA6A;
+	font-family: 'Courgette';
+	font-size: 6em;
+	margin-bottom: 3%;
+}
+.central{
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+	margin-bottom: 3%;
+	padding: 10% 5%;
+	margin-top: 3%;
+	
+}
+.springCame{
+	background: #1C1821;
+	text-align: center;
+	padding: 5% 0%;
+	width: 70%;
+	margin-left: 15%;
+}
+.imagenes{
+	text-align: center;
+	margin: 0% 4% 0% 0%;
+
+}
+.imagenes img{
+	width: 100%;
+	display: flex;
+}
+.second{
+	margin-top: 2%;
+	margin-right: 4%;
+}
+
+.caja{
+	background-color: #1C1821;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	text-align: center;
+}	
+.imagenes2{
+	text-align: center;
+	margin-right: 3%;
+
+}
+.video{
+		margin-right: 3%;
+}
+.imagenes2 img{
+	width: 100%;
+	display: flex;
+}
+
+iframe{
+	width: 100%;
+	display: flex;
+}
+.buscador{
+	padding: 6% 7%;
+	margin-bottom: 2%;
+	background-color: #1C1821;
+	border-radius: 1.5%
+}
+
+ input{
+	background-color:#2D2735;
+	width: 90%;
+	padding:4%;
+	border-radius: 1.5%;
+}
+.aboutme{
+	padding-bottom: 5%;
+	text-align: center; 
+	background-color: #1C1821;
+	
+}
+
+.medio{
+	padding-top: 0%;
+	padding-bottom: 3%;
+}
+.down{
+	padding-bottom: 2%;
+}
+
+.footer{
+	padding-top: 3%;
+	margin-top: 3%;
+	padding-bottom: 3%;
+}
+.hamburguesa {
+	display: none;
+	float: right;
+	font-size: 3em;
+}
+
+.redes{
+	margin-top: 5%;
+	margin-left: 2%;
+}
+i {
+	border: 1px solid #2D2735;
+	background-color: #2D2735;
+	border-radius: 50%;
+	padding: 2%;
+}
+
+@media screen and (max-width : 920px) {
+	.nav-header{
+		display: none;
+	}
+	.hamburguesa{
+		display: inline-block;
+	}
+	header .col-4{
+		width: 90%;
+	}
+	.col-8{
+		width: 10%;
+	}
+	
+
+@media screen and (max-width: 600px) {
+
+}
